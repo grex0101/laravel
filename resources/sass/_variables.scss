@@ -1,0 +1,90 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+@font-face {
+    font-family: "Lato-Medium";
+    src: url("/styles/fonts/Lato-Medium.eot?#iefix") format("embedded-opentype"),
+        url("/styles/fonts/Lato-Medium.woff") format("woff"),
+        url("/styles/fonts/Lato-Medium.ttf") format("truetype"),
+        url("/styles/fonts/Lato-Medium.svg#Lato-Medium") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato-Semibold";
+    src: url("/styles/fonts/Lato-Semibold.eot?#iefix")
+            format("embedded-opentype"),
+        url("/styles/fonts/Lato-Semibold.woff") format("woff"),
+        url("/styles/fonts/Lato-Semibold.ttf") format("truetype"),
+        url("/styles/fonts/Lato-Semibold.svg#Lato-Semibold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("/styles/fonts/Lato-Regular.eot?#iefix")
+            format("embedded-opentype"),
+        url("/styles/fonts/Lato-Regular.woff") format("woff"),
+        url("/styles/fonts/Lato-Regular.ttf") format("truetype"),
+        url("/styles/fonts/Lato-Regular.svg#Lato-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato-Light";
+    src: url("/styles/fonts/Lato-Light.eot?#iefix") format("embedded-opentype"),
+        url("/styles/fonts/Lato-Light.woff") format("woff"),
+        url("/styles/fonts/Lato-Light.ttf") format("truetype"),
+        url("/styles/fonts/Lato-Light.svg#Lato-Light") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "FontAwesome";
+    src: url("/styles/fonts/fontawesome-webfont.eot?v=4.7.0");
+    src: url("/styles/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0")
+            format("embedded-opentype"),
+        url("/styles/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+        url("/styles/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
+        url("/styles/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
+        url("/styles/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
+            format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.projecttitle{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 35px;
+    color:rgb(255,255,255);
+}
+
+.viewbutton{
+    position: absolute;
+    bottom: 25%;
+    left: 40%;   
+}
+
+.center{
+    text-align: center;
+}
+
