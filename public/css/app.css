@@ -54,6 +54,16 @@
   text-align: center;
 }
 
+.vie {
+  position: absolute;
+  top: 5%;
+  left: 0%;
+}
+
+.trans {
+  background-color: rgba(255, 255, 255, 0);
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

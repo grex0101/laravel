@@ -4,9 +4,10 @@
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-    <h1 style="" class="projecttitle" >AJ-Morino</h1>
-    <a href="/project/2"><button type="button" class="btn btn-outline-light viewbutton">View Project</button></a>
-      <img src="/storage/uploads/AJ_Morino - 02.jpg" class="d-block"  width="100%" height="450px" alt="..."> 
+    <img src="/storage/uploads/AJ_Morino - 02.jpg" class="d-block vie"  width="100%" height="450px" alt="...">
+    <h1 style="" >AJ-Morino</h1>
+    <a href="/project/2"><button type="button" class="btn btn-outline-light">View Project</button></a>
+       
     </div>
     @foreach ($projects as $project)
     @if($project['main'] == true)

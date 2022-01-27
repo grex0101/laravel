@@ -26,29 +26,29 @@ Street 2, Barmo bldg, GF
 <form action="/m" enctype="multipart/form-data" method="post">
     @csrf
 <div class="container" style="margin-left:50px;margin-top:40px;" >
-    <div class="row" style="margin-bottom:8px">
+    <div class="row mr-0" style="margin-bottom:8px">
     <h2>Leave us a message!</h2>
     </div>
-<div class="row" style="margin-bottom:8px">
+<div class="row mr-0" style="margin-bottom:8px">
 <div class="col-md-4">
     <input type="text" class="form-control" placeholder="name" aria-label="name"  name="name"required>
   </div>
 </div>
-<div class="row" style="margin-bottom:8px">
+<div class="row mr-0" style="margin-bottom:8px">
 <div class="col-md-4">
     <input type="text" class="form-control" placeholder="Email" aria-label="email"  name="email" required>
   </div>
 </div>
-<div class="row" style="margin-bottom:8px">
+<div class="row mr-0" style="margin-bottom:8px">
 <div class="col-md-4">
     <input type="text" class="form-control" placeholder="Your number" aria-label="phone_number" name="phone_number">
   </div>
 </div>
-<div class="row" style="margin-bottom:8px">
+<div class="row mr-0" style="margin-bottom:8px">
 <div class="col-md-6">
   <textarea defaultvalue="Your Message* " class="form-control" data-val="true" data-val-required="This field is required." id="ctrl_3_19" name="message" placeholder="Your Message* "></textarea>
 </div>
-<div class="row" style="margin-left:100px;margin-top:8px">
+<div class="row mr-0" style="margin-left:100px;margin-top:8px">
     <div class="col-md-8">
     <button type="submit" class="btn btn-outline-dark">Send!</button>
 </div>
